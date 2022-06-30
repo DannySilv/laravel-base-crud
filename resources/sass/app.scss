@@ -1,1 +1,28 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.ms-title {
+  font-size: 1.3rem;
+}
+
+.ms-comic {
+  margin: 1rem;
+}
+
+.img-container {
+  width: 100px;
+}
