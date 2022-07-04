@@ -14,7 +14,8 @@
       <span>Series: {{ $this_comic->series }} | </span>
       <span>Type: {{ $this_comic->type }}</span> 
       <h5>Sale Date: {{\Carbon\Carbon::parse($this_comic->sale_date)->format('d/M/Y')}}</h5>            
-      <h4>Price: {{ $this_comic->price }}$</h4>      
+      <h4>Price: {{ $this_comic->price }}$</h4>
+      <a class="btn btn-secondary" href={{ route('comics.edit', ['comic' => $this_comic->id]) }}>Edit</a>      
     </li>          
   </ul>
 </div>  
